@@ -11,6 +11,11 @@ View compatibility here: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
     counter-reset: page 1;
     margin: 10%;
 
+    size: A4 portrait;
+    padding: 9pt;
+    margin: 18pt 18pt 18pt 18pt;
+    font-family: "Helvetica Narrow";
+
     @top-left {
         content: "";
     }
