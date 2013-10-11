@@ -3,8 +3,11 @@
     break-after: always;
 }
 
+
+
 /*
-View compatibility here: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+This doesn't seem to work in any browser yet
+Does work when run through PrinceXML
 */
 @page {
     counter-increment: page;
