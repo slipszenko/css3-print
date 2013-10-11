@@ -3,12 +3,16 @@
     break-after: always;
 }
 
+/*
+View compatibility here: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+*/
 @page {
     counter-increment: page;
     counter-reset: page 1;
+    margin: 10%;
 
     @top-left {
-        content: "Page " counter(page);
+        content: "";
     }
 
     @top-right {
