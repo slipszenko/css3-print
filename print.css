@@ -2,3 +2,24 @@
     page-break-after: always;
     break-after: always;
 }
+
+@page {
+    counter-increment: page;
+    counter-reset: page 1;
+
+    @top-left {
+        content: "Page " counter(page);
+    }
+
+    @top-right {
+        content: "";
+    }
+
+    @bottom-left {
+        content: "";
+    }
+
+    @bottom-right {
+        content: "Page " counter(page);
+    }
+}
